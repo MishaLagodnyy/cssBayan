@@ -1,7 +1,9 @@
 
 body{
+    font-family: 'Roboto', sans-serif;
     width: 80%;
     background-color: bisque;
+    margin: 10%;
 }
 
 .item{
