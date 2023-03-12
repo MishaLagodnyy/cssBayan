@@ -1,4 +1,6 @@
-
+* {
+    transition: all 600ms
+}
 body{
     font-family: 'Roboto', sans-serif;
     width: 80%;
@@ -13,7 +15,12 @@ body{
 .wrapper{
     cursor: pointer;
 }
+.wrapper:hover{
+    color: black;
+}
 .title{
+    color: black;
+    font-size: 2em;
     display: block;
     cursor: pointer;
 }
@@ -23,6 +30,7 @@ body{
 }
 .image{
     display: none;
+    
 }
 .input:checked + .image{
     display: block;
@@ -30,4 +38,14 @@ body{
 }
 .input:hover + .image{
     display: block;
+}
+.inactive{
+    color: blue;
+}
+.inactive:hover{
+    color: black;
+}
+@media screen {
+    
+    
 }
