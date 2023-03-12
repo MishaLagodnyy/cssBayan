@@ -1,0 +1,21 @@
+
+body{
+    width: 80%;
+    background-color: bisque;
+}
+
+.item_1st{
+    max-width: 500px;
+    margin: 0.5rem auto;
+}
+.title_1st{
+    display: block;
+    cursor: pointer;
+}
+.input_1st{
+    appearance: none;
+    position: absolute;
+}
+.image_1st{
+    display: none;
+}
