@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     width: 80%;
+    height: 80%;
     background-color: bisque;
     margin: 10%;
 }
@@ -29,15 +30,17 @@ body{
     position: absolute;
 }
 .image{
-    display: none;
+    max-height : 0;
+    overflow : hidden;
+    transition : .2s;
     
 }
-.input:checked + .image{
-    display: block;
+.input:checked ~ .image{
+    max-height: 40rem;
     
 }
-.input:hover + .image{
-    display: block;
+.input:hover ~ .image{
+    max-height: 40rem;
 }
 .inactive{
     color: blue;
@@ -46,6 +49,6 @@ body{
     color: black;
 }
 @media screen {
-    
+
     
 }
