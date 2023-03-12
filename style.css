@@ -4,18 +4,28 @@ body{
     background-color: bisque;
 }
 
-.item_1st{
+.item{
     max-width: 500px;
     margin: 0.5rem auto;
 }
-.title_1st{
+.wrapper{
+    cursor: pointer;
+}
+.title{
     display: block;
     cursor: pointer;
 }
-.input_1st{
+.input{
     appearance: none;
     position: absolute;
 }
-.image_1st{
+.image{
     display: none;
+}
+.input:checked + .image{
+    display: block;
+    
+}
+.input:hover + .image{
+    display: block;
 }
