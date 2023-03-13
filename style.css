@@ -33,7 +33,7 @@ body{
 .image{
     max-height : 0;
     overflow : hidden;
-    transition : .2s;
+    /* transition : .2s; */
     
 }
 .input:checked ~ .image{
